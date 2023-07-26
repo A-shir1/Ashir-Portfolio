@@ -1,0 +1,54 @@
+.about-left{
+    width: 50%;
+    /* background-color: red; */
+}
+
+.image-thumbnail{
+    margin-left: 20%;
+}
+
+.background{
+    width: 12.5rem;
+    height: 12.5rem;
+    background-color: var(--emerald-green);
+    border-radius: 0.6rem;
+    position: relative;
+}
+
+.suit-photo{
+    width: 11.6rem;
+    position: absolute;
+    left: -1px;
+    bottom: -1px;
+    border-radius: 0 0 0.6rem 0;
+    transform: scaleX(-1);
+}
+
+.about-head{
+    font-size: 1.9rem;
+}
+
+.about-right{
+    width: 50%;
+    /* background-color: blue; */
+}
+
+
+.about-subhead{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.dash{
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.about-body-text{
+    font-size: 0.75rem;
+    margin: 0.9rem 0;    
+}
+
+.skills{
+    margin-bottom: 3rem;
+}

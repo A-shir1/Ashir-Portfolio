@@ -1,0 +1,104 @@
+.contact-left{
+    width: 50%;
+}
+
+.contact-head{
+    /* background-color: red; */
+    width: 20rem;
+    font-size: 2rem;
+}
+
+.contact-tagline{
+    margin: 1.5rem 0;
+}
+
+.mail-me{
+    margin: 4rem 3rem;
+    display: flex;
+}
+
+.mail-icon-container{
+    background-color: var(--secondary-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 5px;
+    margin-right: 0.8rem;
+}
+
+.mail-text{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.contact-right{
+    width: 50%;
+    /* background-color: green ; */
+}
+
+.contact-subhead{
+    font-weight: 600;
+}
+
+.input{
+    margin-bottom: 1rem;
+    height: 0.8rem;
+    font-size: 0.75rem;
+}
+
+.message-container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.message-label{
+    font-size: 0.9rem;
+    /* background-color: red; */
+}
+
+.message-container textarea{
+    resize: none;
+    height: 5rem;
+}
+
+.message-container textarea, .input{
+    width: 90%;
+    padding: 0.7rem 1rem;
+    background-color: var(--secondary-grey);
+    font-family: inherit;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.input:focus, .message-container textarea:focus{
+    border: 2px solid var(--emerald-green);
+    outline: none;
+}
+
+.send-btn{
+    color: var(--main-grey);
+    background-color: var(--emerald-green);
+    padding: 0.7rem 1.7rem;
+    font-weight: 700;
+    font-family: inherit;
+    transition: 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.send-btn:hover{
+    background-color: var(--hover-emerald-green);
+}
+
+@media screen and (max-width: 768px) {
+    :root{
+      font-size: 10px;
+    }
+  }

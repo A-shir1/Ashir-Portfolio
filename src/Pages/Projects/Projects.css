@@ -1,0 +1,16 @@
+.Projects{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* Fix this in media query */
+
+}
+
+.projects-head{
+    font-size: 2rem;
+    margin: 0;
+}
+
+

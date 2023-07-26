@@ -1,0 +1,88 @@
+.project-slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+
+.project-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    height: 19rem;
+    /* background-color: red; */
+}
+
+
+.page-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7rem;
+}
+
+.page{
+    margin: 1rem 1rem;
+    font-size: 0.8rem;
+}
+
+.chev-container{
+    background-color: var(--secondary-grey);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.chev-container:active{
+    border: 2px solid var(--emerald-green);
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 12rem;
+    font-size: 0.8rem;
+    margin: 1rem 0;
+}
+
+.project-title{
+    font-weight: 600;
+}
+
+.tools-used{
+    /* background-color: red; */
+    display: flex;
+}
+
+
+
+.inner-circle, .outer-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.outer-circle{
+    width: 26rem;
+    height: 26rem;
+    border: 1px solid var(--secondary-grey);
+}
+
+
+.inner-circle{
+    background-color: var(--secondary-grey);
+    width: 20rem;
+    height: 20rem;
+}
+
+.thumbnail{
+    width: 22rem;
+    border-radius: 0.4rem;
+}
