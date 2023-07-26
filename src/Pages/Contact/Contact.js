@@ -1,7 +1,27 @@
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { MailOutline } from '@mui/icons-material';
 import './Contact.css';
 
 function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
+      .then((result) => {
+        console.log(result.text);
+        e.target.reset()
+        alert("Message Sent Successfully!");
+      }, 
+      (error) => {
+        console.log(error.text);
+    });
+
+  };
+
   return (
     <div className="Contact">
         <div className="contact-left">
@@ -30,7 +50,7 @@ function Contact() {
 
         <div className="contact-right">
           <h2 className="contact-subhead">Send me a <span className="accent">message</span>.</h2>
-          <form action="https://formsubmit.co/mohammadashir7080@email.com" method="POST"> 
+          <form ref={form} onSubmit={sendEmail}> 
             <input className="input" type="text" placeholder="Name*" name="name" id="name" required />
             <input className="input" type="email" placeholder="Email Address*" name="email" id="email" required />
             <input className="input" type="text" placeholder="Subject" name="subject" id="subject" required />
