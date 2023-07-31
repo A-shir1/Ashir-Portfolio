@@ -60,7 +60,7 @@
 }
 
 .secondary-cta:hover #left-arrow{
-    margin-left: 0.62rem;
+    transform: translateX(0.68rem);
 }
 
 .home-right img{
@@ -73,4 +73,38 @@
     .tag-line{
         font-size: 1rem;
     }
+}
+
+@media screen and (max-width: 430px) {
+    .Home{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        /* background-color: red; */
+    }
+
+    .home-left, .home-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+    }
+
+    .heading, .tag-line{
+        width: 100%;
+    }
+
+    .call-to-action{
+        margin: auto;
+        width: 100%;
+    }
+
+    .primary-cta, .secondary-cta{
+        margin: auto;
+    }
+
+    .secondary-cta:hover #left-arrow{
+        transform: translateX(0.3rem);
+    }
+    
 }

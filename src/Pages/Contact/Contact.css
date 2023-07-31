@@ -96,9 +96,3 @@
 .send-btn:hover{
     background-color: var(--hover-emerald-green);
 }
-
-@media screen and (max-width: 768px) {
-    :root{
-      font-size: 10px;
-    }
-  }

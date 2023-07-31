@@ -15,17 +15,18 @@ body{
   background-color: var(--main-grey);
   color: white;
   font-family: 'Montserrat', sans-serif;
+  /* background-color: red; */
+
 }
 
 .App{
   height: 100vh;
   margin: 0 10%;
   position: relative;
-  /* background-color: red; */
 }
 
 .Home, .About, .Contact{
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
   display: flex;
@@ -54,6 +55,6 @@ body{
 
 @media screen and (max-width: 650px) {
   :root{
-    font-size: 8px;
+    font-size: 9px;
   }
 }
