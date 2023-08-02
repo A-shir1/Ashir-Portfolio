@@ -55,6 +55,30 @@ body{
 
 @media screen and (max-width: 650px) {
   :root{
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  :root{
     font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  :root{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  :root{
+    font-size: 9px;
   }
 }

@@ -26,7 +26,9 @@ function Home() {
         </div>
 
         <div className="home-right">
-            <img src={illustration} alt="" />
+            <div className="home-img-container">
+                <img src={illustration} alt="" />
+            </div>
         </div>
     </div>
   )
