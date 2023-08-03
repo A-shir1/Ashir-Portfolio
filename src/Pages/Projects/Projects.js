@@ -5,11 +5,9 @@ function Projects() {
   return (
     <div className="Projects">
       <h1 className="projects-head">PROJECTS</h1>
+            
+      <Project />
 
-      
-      <div className="projects-list">
-        <Project />
-      </div>
     </div>
   )
 }
