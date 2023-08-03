@@ -13,4 +13,11 @@
     margin: 0;
 }
 
+@media screen and (max-width: 500px) {
+    .Projects{
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
 

@@ -86,3 +86,24 @@
     width: 22rem;
     border-radius: 0.4rem;
 }
+
+@media screen and (max-width: 500px) {
+    .Project{
+        height: 75vh;
+    }
+
+    .project-slider{
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .project-left{
+        width: 100%;
+        height: 50%;
+    }
+
+    .project-right{
+        width: 100%;
+    }
+}

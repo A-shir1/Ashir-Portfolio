@@ -89,31 +89,10 @@
     transition: ease-out 0.2s;
 }
 
-/* .ham-line.unclicked{
-    transform: rotate(0) translate(0);
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
-}
-
-
-.ham-line.clicked:nth-child(1){
-    transform: rotate(45deg) translate(0.75rem, 1.25rem);
-    transition: ease-out 0.5s;
-}
-
-.ham-line.clicked:nth-child(2){
-    transform: scale(0.1);
-    transition: ease-out 0.5s;
-}
-
-.ham-line.clicked:nth-child(3){
-    transform: rotate(135deg) translate(-0.5rem, 1rem);
-    transition: ease-out 0.5s;
-} */
-
 
 .phone-nav .nav-items{
     flex-direction: column;
-    height: 40%;
+    height: 35%;
     text-transform: uppercase;
     margin-top: 60%;
     font-size: 1.5rem;

@@ -96,3 +96,47 @@
 .send-btn:hover{
     background-color: var(--hover-emerald-green);
 }
+
+@media screen and (max-width: 500px) {
+    .Contact{
+        justify-content: center;
+        /* background-color: blue; */
+    }
+    
+    .contact-left, .contact-right{
+        width: 100%;
+    }
+
+    .contact-head{
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .contact-tagline{
+        font-size: 1.2rem;
+    }
+
+    form{
+        /* background-color: red; */
+        height: 28rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .contact-subhead{
+        font-size: 1.7rem;
+    }
+
+    .input{
+        margin-bottom: 2rem;
+    }
+
+    .message-container{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+}
